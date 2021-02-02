@@ -1,13 +1,13 @@
 const jsonServer = require('json-server')
 const server = jsonServer.create()
 const middlewares = jsonServer.defaults()
+const port = process.env.PORT || 3000
 var respon
 
 server.use(middlewares)
 
 server.use(jsonServer.bodyParser)
 server.post('/inquiry', (req, res) => {
-	console.log(req.body)
 
 	today = new Date()
 	var dd = today.getDate()
@@ -48,6 +48,6 @@ server.use((req, res, next) => {
  })
 */
 
-server.listen(3000, () => {
+server.listen(port, () => {
   console.log('JSON Server is running')
 })
