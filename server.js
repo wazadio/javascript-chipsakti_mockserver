@@ -33,6 +33,7 @@ server.post('/inquiry', (req, res) => {
 			"tagihan": tagihan,
 			"admin": 3300,
 			"total_tagihan": tagihan + 3300,
+			"data": req.body.periode,
 			"msg": "approve",
 			"rc": "00",
 			"reffid": 12345,
