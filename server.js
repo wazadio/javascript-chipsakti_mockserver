@@ -141,7 +141,7 @@ server.post('/status', (req, res) => {
 		"tagihan": parseInt(req.body.amount),
 		"admin": 0,
 		"total_tagihan": parseInt(req.body.amount),
-		"biller_ref": "0000"
+		"biller_ref": "0000",
 		"tanggal_lunas": waktu,
 		"reff_no": "0123",
 		"struk":[
