@@ -36,7 +36,7 @@ server.post('/inquiry', (req, res) => {
 			"data": req.body.periode,
 			"msg": "approve",
 			"rc": "00",
-			"reffid": 12345,
+			"reffid": "12345",
 			"restime": waktu
 		}
 	}
