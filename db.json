@@ -1,0 +1,9 @@
+{
+  "pelanggan" : {
+  				"1": {"nopel": "1", "nama": "ADIT", "produk": {"WOM": 1000, "INDOVISION": 1000}},
+  				"2": {"nopel": "2", "nama": "HANAFI", "produk": {"WOM": 1500, "INDOVISION": 500}},
+  				"3": {"nopel": "3", "nama": "JUNI", "produk": {"WOM": 2000, "INDOVISION": 0}},
+  				"4": {"nopel": "4", "nama": "PAK ARIQ", "produk": {"WOM": 500, "INDOVISION": 0}},
+  				"5": {"nopel": "5", "nama": "PAK BAYU", "produk": {"WOM": 0, "INDOVISION": 500}}
+			}
+}
