@@ -168,7 +168,7 @@ server.post('/status', (req, res) => {
 			"admin": 0,
 			"total_tagihan": parseInt(req.body.amount),
 			"biller_ref": "0000",
-			"tanggal_lunas": waktu,
+			"tgl_lunas": waktu,
 			"reff_no": "0123",
 			"struk":[
 			"<b>PT. MULTI ACCESS INDONESIA - CHIPSAKTI</b>",
