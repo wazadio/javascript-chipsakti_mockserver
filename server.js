@@ -108,8 +108,8 @@ server.post('/payment', (req, res) => {
 			"tagihan": parseInt(req.body.amount) - 3300,
 			"admin": 3300,
 			"total_tagihan": parseInt(req.body.amount),
-			"tanggal_lunas": waktu,
-			"reff_no": 54321,
+			"tgl_lunas": waktu,
+			"Reff_no": "54321",
 			"struk":[
 			"pembayaran"+req.body.product_code,
 			"",
@@ -161,6 +161,7 @@ server.post('/status', (req, res) => {
 	var waktu = yyyy+"-"+mm+"-"+dd+" "+hours+":"+minutes+":"+seconds
 	if(signature == req.body.signature){
 		respon = {
+			"produk": req.body.product_code,
 			"nopel": req.body.customer_no,
 			"nama": data.pelanggan[req.body.customer_no]["nama"],
 			"tagihan": parseInt(req.body.amount),
